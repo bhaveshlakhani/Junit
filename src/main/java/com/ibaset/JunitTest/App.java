@@ -13,7 +13,7 @@ public class App
     {
 
     	
-    	System.out.println("heloo");
+    	System.out.println("Junit test Example");
     	
     	//Student s1=new Student(1, "bhavesh");
     	
