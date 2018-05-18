@@ -25,9 +25,15 @@ public class Student {
 		return name;
 	}
 
-	public void setName(String name) 
+	public void setName(String name) throws CustomException 
 	{
 		this.name = name;
+		
+		if(name.length()>15)
+		{
+			
+			throw new CustomException();
+		}
 	}
 
 }
